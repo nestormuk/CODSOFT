@@ -1,0 +1,669 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+}
+.top_bar{
+    border-bottom: 1px solid black;
+}
+.mail_phone_container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+}
+.phone, .mail{
+    display: flex;
+    gap: 10px;
+}
+.icon-mail{
+    width: 20px;
+    height: 20px;
+}
+.button_links_container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.button_links_container .icons{
+    display: flex;
+}
+
+.icons .social-icon{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.icons .social-icon .icon{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+
+.button_links_container button{
+    background-color: #c82424;
+    border: none;
+    width: 126px;
+    height: 38px;
+    color: white;
+    margin: 0px 20px 0px 0px;
+}
+.button_links_container button a{
+    text-decoration: none;
+    color: black;
+}
+.button_links_container button:hover{
+    background-color: white;
+    border: 2px solid #C82424;
+}
+.menu_bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.menu_bar .menu_button{
+    color: #c82424;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.navbar {
+    margin-top: 21px;
+    display: none;
+    margin-right: 20px;
+    
+}
+.navbar ul{
+    display: flex;
+    gap: 19px;
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.navbar ul li a:hover{
+    color: #C82424;
+}
+.hero{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), url("../Assets/hero\ img.png"), lightgray 50% / cover no-repeat;
+    width: auto;
+    height: 482px;
+    color: white;
+    background-size: 100%;
+}
+.hero_hedding1{
+    padding: 100px 336px 0 23px;
+    width: 73px;
+    height: 25px;
+    font-size: 14px;
+    text-decoration: underline crimson;
+}
+.hero_hedding2{
+    padding: 10px 5px 0px 23px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32.68px;
+    width: 80%;    
+}
+.hero_paragraph{
+    padding: 10px 23px 0px 23px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.button_consulting{
+    margin: 70px 23px;
+    background-color: #c82424;
+    color: white;
+    width: 124px;
+    height: 38px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.button_Lear_More{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    width: 108px;
+    height: 38px;
+    border-color: white;
+    border-radius: 5px;
+}
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 26px 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+.card_container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 1px 5px;
+    height: 254px;
+    background-color: #cdc9c9;
+}
+.card_container .card h4{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.card_container .card p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 274px;
+    text-align: center;
+}
+.icon_card{
+    width: 50px;
+    height: 50px;
+    margin: 26px;
+}
+.aboutus_img_container{
+    display: flex;
+    justify-content: center;
+}
+.aboutus_img_container .img{
+    height: 353px;
+    width: 80%; 
+}
+.aboutus_hedding1{
+    width: 65px;
+    height: 15px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.aboutus_hedding2{
+    width: 90%;
+    height: 69px;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 20px;
+}
+.aboutus_hedding2 span{
+    color: #c82424;
+}
+.aboutus_paragraph{
+    color: #6C6C6C;
+    font-size: 13px;
+    font-weight: 400;
+    width: 80%;
+    margin: 20px;
+}
+.about_us_list li{
+    margin: 15px;
+    list-style: none;
+    color: #6C6C6C;
+    font-size: 14px;
+    font-weight: 400;
+}
+.icon_check-square{
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+.button_aboutus{
+    background-color: #c82424;
+    border-radius: 5px;
+    width: 124px;
+    height: 38px;
+    border: #cdc9c9;
+    margin: 15px;
+    color: white;
+}
+.video_container{
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+}
+.video_content{
+    background-color: #c82424;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: left;
+}
+.video_content h2{
+    width: 60%;
+    height: 75px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.14px;
+    margin-top: 10px;
+}
+.video_content p{
+    width: 60%px;
+    height: 126px;
+    font-size: 14px;
+    color: #F4D3D5;
+}
+.video_content h3{
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.video_content h4{
+    height: 18px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.video{
+    background-image: url("../Assets/video\ img.png");
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 225px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 120px;
+}
+.video_icon{
+    color: white;
+    width: 24px;
+    height: 24px;
+    background-color: #c82424;
+    border-radius: 50px;
+    padding: 28px;
+}
+.contacts_us{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0%, rgba(0, 0, 0, 0.76) 100%), url("../Assets/contact-bg.jpeg"), lightgray 50% / cover no-repeat;
+    background-position: center;
+    padding: 20px;
+    width: auto;
+    height: 100%;
+    color: white;
+    line-height: normal;
+    font-style: normal;
+}
+.contacts_us h1{
+    font-size: 18px;
+    font-weight: 400;
+    width: 317px;
+    height: 46px;
+}
+.contacts_us p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 314px;
+    height: 64px;
+}
+.contacts_us h2{
+    width: 111px;
+    height: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.contacts_us .icons{
+    display: flex;
+}
+.contacts_us .icons .social-icon{
+    background-color: white;
+    color: #c82424;
+    margin-top: 20px;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+}
+.input_container{
+    position: relative;
+    margin: 23px 0px;
+    justify-content: left;
+}
+.input_container .icon{
+    background-color: #3F596C;
+    width: 24px;
+    padding: 15px;
+    margin-bottom: 2px;
+    position: absolute;
+}
+.input_container input{
+    width: 328px;
+    height: 50px;
+}
+.input_container ::placeholder{
+    padding-left: 73px;
+}
+.input_container textarea{
+    width: 328px;
+    height: 202px;
+}
+.contact_form button{
+    width: 146px;
+    height: 38px;
+    border-radius: 5px;
+    background: #C82424;
+    color: #FFF;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.our_partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our_partners h3{
+    margin: 20px 0px;
+    font-size: 12px;
+    color: #6C6C6C;
+}
+.our_partners h1{
+    font-size: 28px;
+    font-weight: 400;
+    width: 300px;
+    height: 70px;
+    text-align: left;
+}
+.partners_logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.partners_logo img{
+    margin: 15px;
+}
+.footer{
+    background-color: #0F3041;
+    width: auto;
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.footer p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 321px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer .icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .icons .social-icon{
+    background-color: #FFF;
+    border: none;
+}
+.footer .icons .icon{
+    color: #C82424;
+}
+.footer h2{
+    width: 123px;
+    height: 15px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0px;
+}
+.footer ul li{
+    list-style: none;
+    margin: 11px 0px;
+    font-size: 14px;
+}
+.contact{
+    display: flex;
+    margin-bottom: 10px;
+}
+.contact h5{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.copyright{
+    border-top: 1px solid white;
+    background-color: #0F3041;
+    width: auto;
+    color: white;
+    text-align: center;
+    padding: 26px;
+}
+@media only screen and (min-width: 831px){
+    .top_bar {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin: 0;
+    }
+    .button_links_container button{
+        width: 148px;
+        height: 51px;
+    }
+    .icons, .phone, .mail{
+        margin:  10px 0 0 0px;
+    }
+    .menu_bar .menu_button{
+        display: none;
+    }
+    .menu_bar .logo, .mail{
+        margin-left: 36px;
+    }
+    .hero{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), url("../Assets/hero\ img\ desktop.png"), lightgray 50% / cover no-repeat;
+    }
+    .navbar{
+        display: flex;
+    }
+    .card_container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 20px;
+    }
+    .card_container .card{
+        width: 45%;
+        margin: 1px 5px;  
+    }
+    .card_container .card p{
+        width: 254px; 
+    }
+    .aboutus_paragraph{
+        width: 713px;
+        font-size: 16px;
+    }
+    .aboutus_img_container .img{
+        height: 773px;
+        width: 90%; 
+        margin-right: 20px;
+    }
+    .video_content{
+        width: 580px;
+        text-align: start;
+        padding: 29px;
+    }
+    .video_content h2{
+        width: 561px;
+        font-size: 30px;
+        line-height: normal;
+    }
+    .video_content p{
+        width: 520px;
+        margin-top: 27px;
+    }
+    .video_content h3{
+        height: 18px;
+        margin-top: 27px;
+    }
+    .video_content h4{
+        font-size: 14px;
+        margin-top: 27px;
+    }
+    .video{
+        width: 637px;
+        background-image: url("../Assets/video\ img\ tablet.png");
+    }
+    .contacts_us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .contacts_us h1{
+        margin-top: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .contacts_us p{
+        font-size: 14px;
+        width: 703px;
+        height: 64px;
+    }
+    .contacts_us h2{
+        font-size: 17px;
+        width: 196px;
+    }
+    .contact_forms{
+        width: 700px;
+    }
+    .contact_form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row ;
+    }
+    #message textarea{
+        width: 630px;
+    }
+    .input_container .icon{
+        width: 24px;
+        padding: 15px;
+        margin-bottom: 2px;
+    }
+    .input_container input{
+        width: 302px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .our_partners h1{
+        font-size: 28px;
+        font-weight: 400;
+        width: 500px;
+        height: 70px;
+        text-align: center;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto;   
+    }
+
+}
+@media only screen and (min-width: 1280px){
+    .hero{
+        
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), url("../Assets/hero\ img\ desktop.png"), lightgray 50% / cover no-repeat;
+    }
+    .card_container .card{
+        width: 23%;
+        margin: 1px 5px;
+    }
+    .aboutus_img_container .img{
+        height: 583px;
+        width: 558px; 
+    }
+    .about_us_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .aboutus_paragraph{
+        font-size: 16px;
+        width: 600px;
+    }
+    .aboutus_hedding2{
+        width: 617px;
+        height: 75px;
+        font-size: 33px;
+        font-weight: 700;
+    }
+    .about_us_list{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .video_container{
+        display: flex;
+        justify-content: center;
+    }
+    .video{
+        width: 596px;
+        height: 325px;
+        background-image: url("../Assets/video\ img\ desktop.png");
+        padding-top: 220px;
+    }
+    .video_content{
+        margin-top: 20px;
+        width: 652px;
+        height: 410px;
+        padding: 29px;
+        margin-right: -50px;
+        position: relative;
+    }
+    .video_content h2{
+        width: 551px;
+    }
+    .contacts_us{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 0px;
+    }
+    .contacts{
+        margin-left: 26px;
+        margin-top: 0px;
+    }
+    .contacts_us h1{
+        font-size: 30px;
+        width: 382px;
+        text-align: left;
+    }
+    .contacts_us p{
+        font-size: 14px;
+        width: 340px;
+        height: 64px;
+    }
+    .contacts_us h2{
+        width: 111px;
+        height: 15px;
+        font-size: 15px;
+    }
+    .contact_forms{
+        margin: 90px 0px;
+    }
+    .contact_forms caption{
+        font-size: 18px;
+    }
+    .our_partners h1{
+        width: 600px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto auto auto;   
+    }
+
+}
